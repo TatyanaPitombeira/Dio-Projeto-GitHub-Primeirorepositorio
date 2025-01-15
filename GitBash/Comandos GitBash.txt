@@ -1,0 +1,16 @@
+Configuração inicial:
+git config --global user.name "Seu Nome" Define o nome do usuário
+git config --global user.email "seuemail@exemplo.com" Define o endereço de e-mail do usuário
+
+Iniciando um repositório: 
+git init Inicia um novo repositório Git
+git clone <URL do Repositório> Clona um repositório existente
+
+Gerenciando alterações 
+git add <nome do arquivo> Adiciona alterações para serem incluídas no próximo commit
+git commit -m "Mensagem do commit" Registra as alterações no repositório
+git status Exibe o status atual das alterações no diretório de trabalho
+
+Navegando pelos diretórios 
+ls Lista arquivos e diretórios no diretório atual
+cd <directory> Altera o diretório atual para o diretório especificado
